@@ -1,8 +1,8 @@
 {
   "routes": [
     {
-      "route": "/api/*",
-      "allowedRoles": ["anonymous"]
+      "route": "/*",
+      "rewrite": "/index.html"
     }
   ],
   "responseOverrides": {
