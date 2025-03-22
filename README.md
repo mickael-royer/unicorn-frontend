@@ -12,6 +12,11 @@ System Software rely on a Frontend/Backend pattern:
 
 ![Software System Overview](container.png "Software System Overview")
 
+## Local .env variables settting
+```
+set -a; source .env; set +a
+```
+
 ## Start Ionic Server
 ```
 ionic serve
